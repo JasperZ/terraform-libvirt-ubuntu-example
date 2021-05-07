@@ -19,7 +19,7 @@ variable "cidr" {
 
 resource "libvirt_volume" "ubuntu_base" {
 	name = "os_image"
-	source = "../01-packer/output/ubuntu.qcow2"
+	source = "https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.img"
 }
 
 resource "libvirt_volume" "ubuntu_system" {
