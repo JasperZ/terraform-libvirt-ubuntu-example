@@ -1,0 +1,2 @@
+# Terraform example how to provision an ubuntu system via libvirt
+This example shows how to provision an ubuntu system via the [terraform-provider-libvirt](https://github.com/dmacvicar/terraform-provider-libvirt).
